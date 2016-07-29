@@ -50,7 +50,7 @@ class lxde (
 
   if $pamfix {
     pam { 'lxdm fix 1':
-      ensure => 'present',
+      ensure  => 'present',
       service => 'lxdm',
       type    => 'session',
       control => 'required',
@@ -58,7 +58,7 @@ class lxde (
     }
 
     pam { 'lxdm fix 2':
-      ensure => 'present',
+      ensure  => 'present',
       service => 'lxdm',
       type    => 'session',
       control => 'required',

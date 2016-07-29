@@ -1,0 +1,21 @@
+{
+  "name": "peterezzo-ssh",
+  "version": "0.0.1",
+  "summary": "Puppet module for LXDE",
+  "author": "Pete Ezzo",
+  "description": "This module installs LXDE and can configure for simple kiosk mode (autolaunching of app)",
+  "dependencies": [
+    { "name": "herculesteam/augeasproviders_pam", "version_requirement": ">= 2.1.0 < 3.0.0" }
+  ],
+  "checksums": {
+
+  },
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [ "14.04" ]
+    }
+   ],
+  "source": "https://github.com/peterezzo/lab-puppet",
+  "license": "None"
+}
